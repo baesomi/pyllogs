@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>800</width>
+                <height>600</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>MainWindow</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <widget class="QTabWidget" name="tabWidget">
+                <property name="geometry">
+                    <rect>
+                        <x>0</x>
+                        <y>-1</y>
+                        <width>801</width>
+                        <height>581</height>
+                    </rect>
+                </property>
+                <property name="currentIndex">
+                    <number>0</number>
+                </property>
+                <widget class="QWidget" name="tab">
+                    <attribute name="title">
+                        <string>입력</string>
+                    </attribute>
+                    <widget class="QTextEdit" name="group1_input">
+                        <property name="geometry">
+                            <rect>
+                                <x>160</x>
+                                <y>230</y>
+                                <width>401</width>
+                                <height>31</height>
+                            </rect>
+                        </property>
+                    </widget>
+                    <widget class="QTextEdit" name="group2_input">
+                        <property name="geometry">
+                            <rect>
+                                <x>160</x>
+                                <y>270</y>
+                                <width>401</width>
+                                <height>31</height>
+                            </rect>
+                        </property>
+                    </widget>
+                    <widget class="QTextEdit" name="group3_input">
+                        <property name="geometry">
+                            <rect>
+                                <x>160</x>
+                                <y>310</y>
+                                <width>401</width>
+                                <height>31</height>
+                            </rect>
+                        </property>
+                    </widget>
+                    <widget class="QTextEdit" name="group4_input">
+                        <property name="geometry">
+                            <rect>
+                                <x>160</x>
+                                <y>350</y>
+                                <width>401</width>
+                                <height>31</height>
+                            </rect>
+                        </property>
+                    </widget>
+                    <widget class="QTextEdit" name="group5_input">
+                        <property name="geometry">
+                            <rect>
+                                <x>160</x>
+                                <y>390</y>
+                                <width>401</width>
+                                <height>31</height>
+                            </rect>
+                        </property>
+                    </widget>
+                    <widget class="QLabel" name="label_1">
+                        <property name="geometry">
+                            <rect>
+                                <x>80</x>
+                                <y>239</y>
+                                <width>56</width>
+                                <height>12</height>
+                            </rect>
+                        </property>
+                        <property name="text">
+                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;
+                                font-weight:600;&quot;&gt;Group1 :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                            </string>
+                        </property>
+                    </widget>
+                    <widget class="QLabel" name="label_2">
+                        <property name="geometry">
+                            <rect>
+                                <x>80</x>
+                                <y>280</y>
+                                <width>56</width>
+                                <height>12</height>
+                            </rect>
+                        </property>
+                        <property name="text">
+                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;
+                                font-weight:600;&quot;&gt;Group2 :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                            </string>
+                        </property>
+                    </widget>
+                    <widget class="QLabel" name="label_3">
+                        <property name="geometry">
+                            <rect>
+                                <x>80</x>
+                                <y>320</y>
+                                <width>56</width>
+                                <height>12</height>
+                            </rect>
+                        </property>
+                        <property name="text">
+                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;
+                                font-weight:600;&quot;&gt;Group3 :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                            </string>
+                        </property>
+                    </widget>
+                    <widget class="QLabel" name="label_4">
+                        <property name="geometry">
+                            <rect>
+                                <x>80</x>
+                                <y>360</y>
+                                <width>56</width>
+                                <height>12</height>
+                            </rect>
+                        </property>
+                        <property name="text">
+                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;
+                                font-weight:600;&quot;&gt;Group4 :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                            </string>
+                        </property>
+                    </widget>
+                    <widget class="QLabel" name="label_5">
+                        <property name="geometry">
+                            <rect>
+                                <x>80</x>
+                                <y>400</y>
+                                <width>56</width>
+                                <height>12</height>
+                            </rect>
+                        </property>
+                        <property name="text">
+                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;
+                                font-weight:600;&quot;&gt;Group5 :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                            </string>
+                        </property>
+                    </widget>
+                    <widget class="QPushButton" name="open_btn">
+                        <property name="geometry">
+                            <rect>
+                                <x>570</x>
+                                <y>125</y>
+                                <width>101</width>
+                                <height>23</height>
+                            </rect>
+                        </property>
+                        <property name="text">
+                            <string>Open</string>
+                        </property>
+                    </widget>
+                    <widget class="QLabel" name="label_file_name">
+                        <property name="geometry">
+                            <rect>
+                                <x>162</x>
+                                <y>130</y>
+                                <width>400</width>
+                                <height>12</height>
+                            </rect>
+                        </property>
+                        <property name="text">
+                            <string/>
+                        </property>
+                    </widget>
+                    <widget class="QLabel" name="label_0">
+                        <property name="geometry">
+                            <rect>
+                                <x>80</x>
+                                <y>130</y>
+                                <width>71</width>
+                                <height>16</height>
+                            </rect>
+                        </property>
+                        <property name="text">
+                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;
+                                font-weight:600;&quot;&gt;File Name&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                            </string>
+                        </property>
+                    </widget>
+                    <widget class="QGroupBox" name="groupBox_time">
+                        <property name="geometry">
+                            <rect>
+                                <x>570</x>
+                                <y>208</y>
+                                <width>51</width>
+                                <height>221</height>
+                            </rect>
+                        </property>
+                        <property name="title">
+                            <string>Time</string>
+                        </property>
+                        <widget class="QRadioButton" name="time_group1">
+                            <property name="geometry">
+                                <rect>
+                                    <x>19</x>
+                                    <y>28</y>
+                                    <width>16</width>
+                                    <height>16</height>
+                                </rect>
+                            </property>
+                            <property name="text">
+                                <string/>
+                            </property>
+                        </widget>
+                        <widget class="QRadioButton" name="time_group2">
+                            <property name="geometry">
+                                <rect>
+                                    <x>19</x>
+                                    <y>68</y>
+                                    <width>16</width>
+                                    <height>16</height>
+                                </rect>
+                            </property>
+                            <property name="text">
+                                <string/>
+                            </property>
+                        </widget>
+                        <widget class="QRadioButton" name="time_group3">
+                            <property name="geometry">
+                                <rect>
+                                    <x>19</x>
+                                    <y>108</y>
+                                    <width>16</width>
+                                    <height>16</height>
+                                </rect>
+                            </property>
+                            <property name="text">
+                                <string/>
+                            </property>
+                        </widget>
+                        <widget class="QRadioButton" name="time_group4">
+                            <property name="geometry">
+                                <rect>
+                                    <x>19</x>
+                                    <y>148</y>
+                                    <width>16</width>
+                                    <height>16</height>
+                                </rect>
+                            </property>
+                            <property name="text">
+                                <string/>
+                            </property>
+                        </widget>
+                        <widget class="QRadioButton" name="time_group5">
+                            <property name="geometry">
+                                <rect>
+                                    <x>19</x>
+                                    <y>188</y>
+                                    <width>16</width>
+                                    <height>16</height>
+                                </rect>
+                            </property>
+                            <property name="text">
+                                <string/>
+                            </property>
+                        </widget>
+                    </widget>
+                    <widget class="QGroupBox" name="groupBox_time_2">
+                        <property name="geometry">
+                            <rect>
+                                <x>620</x>
+                                <y>208</y>
+                                <width>51</width>
+                                <height>221</height>
+                            </rect>
+                        </property>
+                        <property name="title">
+                            <string>Level</string>
+                        </property>
+                        <widget class="QRadioButton" name="level_group1">
+                            <property name="geometry">
+                                <rect>
+                                    <x>19</x>
+                                    <y>28</y>
+                                    <width>16</width>
+                                    <height>16</height>
+                                </rect>
+                            </property>
+                            <property name="text">
+                                <string/>
+                            </property>
+                        </widget>
+                        <widget class="QRadioButton" name="level_group2">
+                            <property name="geometry">
+                                <rect>
+                                    <x>19</x>
+                                    <y>68</y>
+                                    <width>16</width>
+                                    <height>16</height>
+                                </rect>
+                            </property>
+                            <property name="text">
+                                <string/>
+                            </property>
+                        </widget>
+                        <widget class="QRadioButton" name="level_group3">
+                            <property name="geometry">
+                                <rect>
+                                    <x>19</x>
+                                    <y>108</y>
+                                    <width>16</width>
+                                    <height>16</height>
+                                </rect>
+                            </property>
+                            <property name="text">
+                                <string/>
+                            </property>
+                        </widget>
+                        <widget class="QRadioButton" name="level_group4">
+                            <property name="geometry">
+                                <rect>
+                                    <x>19</x>
+                                    <y>148</y>
+                                    <width>16</width>
+                                    <height>16</height>
+                                </rect>
+                            </property>
+                            <property name="text">
+                                <string/>
+                            </property>
+                        </widget>
+                        <widget class="QRadioButton" name="level_group5">
+                            <property name="geometry">
+                                <rect>
+                                    <x>19</x>
+                                    <y>188</y>
+                                    <width>16</width>
+                                    <height>16</height>
+                                </rect>
+                            </property>
+                            <property name="text">
+                                <string/>
+                            </property>
+                        </widget>
+                    </widget>
+                    <widget class="QPushButton" name="submit_btn">
+                        <property name="geometry">
+                            <rect>
+                                <x>170</x>
+                                <y>470</y>
+                                <width>381</width>
+                                <height>23</height>
+                            </rect>
+                        </property>
+                        <property name="text">
+                            <string>Submit</string>
+                        </property>
+                    </widget>
+                </widget>
+                <widget class="QWidget" name="tab_2">
+                    <attribute name="title">
+                        <string>결과</string>
+                    </attribute>
+                    <widget class="QTableWidget" name="tableWidget">
+                        <property name="geometry">
+                            <rect>
+                                <x>0</x>
+                                <y>0</y>
+                                <width>801</width>
+                                <height>541</height>
+                            </rect>
+                        </property>
+                    </widget>
+                </widget>
+            </widget>
+        </widget>
+        <widget class="QMenuBar" name="menubar">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>800</width>
+                    <height>21</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="QStatusBar" name="statusbar"/>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
