@@ -220,6 +220,9 @@
                             <property name="text">
                                 <string/>
                             </property>
+                            <property name="checked">
+                                <bool>true</bool>
+                            </property>
                         </widget>
                         <widget class="QRadioButton" name="time_group2">
                             <property name="geometry">
@@ -310,6 +313,9 @@
                             </property>
                             <property name="text">
                                 <string/>
+                            </property>
+                            <property name="checked">
+                                <bool>true</bool>
                             </property>
                         </widget>
                         <widget class="QRadioButton" name="level_group3">
